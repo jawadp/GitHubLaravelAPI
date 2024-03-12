@@ -3,7 +3,10 @@
 <div class="row">
     <div class="col-md-12">
         @if ($user)
-        <h2>{{ $user['login'] }}</h2>
+        <div class="d-flex justify-content-between">
+           <h2>{{ $user['login'] }}</h2>
+           <a href="/" class="btn-sm text-decoration-none">< Go Back</a>
+        </div>
         <p>Follower count: {{ $user['followers'] }}</p>
         <div id="followers-list" class="d-flex flex-wrap">
             @foreach ($followers as $follower)
