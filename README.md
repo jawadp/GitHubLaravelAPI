@@ -70,7 +70,7 @@ Step: 2: Then run the following command in the terminal to install the vendor fo
 
 Step: 3: Then run the following command in the terminal to update the composer files
 
-```composer uodate```
+```composer update```
 
 Step: 4: If the system is showing key error then run the following command in the terminal
 
